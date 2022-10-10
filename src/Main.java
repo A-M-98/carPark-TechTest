@@ -3,6 +3,7 @@ public class Main {
         CarPark carPark = new CarPark(12, 5);
         Vehicle car = new Car(1);
         carPark.parkVehicle(car);
+        System.out.println("                                        ");
         Vehicle van = new Van(2);
         carPark.parkVehicle(van);
         Vehicle motorbike = new MotorBike(3);
