@@ -1,6 +1,11 @@
 public class Car extends Vehicle{
-    public Car(int id, String type) {
-        super(id, type);
+    public Car(int id) {
+        super(id);
+    }
+
+    @Override
+    public String getType() {
+        return "Car";
     }
 
 }
